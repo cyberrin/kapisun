@@ -1,0 +1,249 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 20px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    background-image: linear-gradient(to bottom, #0a1278, #2b35b7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: clamp(1vw, 98vw, 1900px);
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shailushai_star {
+    align-self: flex-start;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-left: -5px;
+    max-width: 40%;
+    user-select: none;
+}
+
+.fluttershy {
+    align-self: center;
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-right: 60px;
+    max-width: 45%;
+    scale: 1.4;
+    z-index: 1;
+    user-select: none;
+}
+
+.curved_star {
+    align-self: flex-start;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-bottom: -15px;
+    max-width: 35%;
+    user-select: none;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+h1 {
+    display: block;
+    background-color: rgba(228, 196, 255, 0.075);
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    border: solid rgba(228, 196, 255, 0.432) 4px;
+    align-self: flex-start;
+    margin: 0 auto;
+    padding: 0 30px 5px 30px ;
+    font-size: 130px;
+    text-align: center;
+    color: pink;
+    scale: .85;
+    z-index: 2;
+}
+
+.kapisun {
+    align-self: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    /* margin-left: -7px; */
+    max-width: 90%;
+    scale: 1.12;
+    border-radius: 25px;
+    border: solid 5px #ffbff4;
+    border-style: solid;
+    border-width: 5px;
+    box-shadow:
+    0 0 20px 5px rgb(255, 121, 166),
+    /* 0 0 40px 10px white, */
+    0 0 80px 20px #ff00de;
+    user-select: none;
+}
+
+
+
+.love {
+    background-color: rgba(228, 196, 255, 0.075);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    border: solid rgba(228, 196, 255, 0.432) 4px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    z-index: 2;
+}
+
+.list {
+    display: flex;
+    align-self: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.button {
+    border: solid rgba(228, 196, 255, 0.432);
+    border-radius: 20px;
+    background-color: rgba(228, 196, 255, 0);
+    backdrop-filter: blur(10px);
+    transform: scale(1.5);
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    box-shadow: #0a1278 20px;
+    user-select: none;
+}
+
+.button:hover {
+    border: solid #e992ffab;
+    border-radius: 20px;
+    background-color: rgba(196, 255, 235, 0.116);
+    backdrop-filter: blur(10px);
+    transform: scale(1.5);
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    box-shadow: 0 0 10px 1px #e992ff;
+    user-select: none;
+}
+
+.pinkie_site {
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(228, 196, 255, 0.075);
+    backdrop-filter: blur(10px);
+    transform: scale(1.5);
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    box-shadow: #0a1278 20px;
+    user-select: none;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.purple_1star {
+    align-self: flex-end;
+    padding-top: 0px;
+    max-width: 35%;
+    margin: 0 auto;
+    margin-right: -5px;
+    z-index: 1;
+    user-select: none;
+}
+
+.pinkie {
+    align-self: center;
+    margin: 0 auto;
+    margin-right: 0;
+    margin-left: 40px;
+    max-width: 45%;
+    scale: 1.2;
+    z-index: 1;
+    user-select: none;
+}
+
+.purple_stars {
+    align-self: flex-end;
+    margin: 0 auto;
+    margin-right: 20px;
+    max-width: 30%;
+    scale: 1.3;
+    user-select: none;
+}
+
+.starry_sky {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 95%;
+    scale: 1.05;
+    margin: 0;
+    z-index: -1;
+    /* color: alpha(0.1); */
+    user-select: none;
+}
+
+p, li {
+    line-height: 30px;
+    letter-spacing: .5px;
+    color: #fff;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: pink;
+    text-shadow: #ffbff4;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 10px;
+    list-style-type: none;
+}
